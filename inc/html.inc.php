@@ -41,6 +41,7 @@ EOT;
 	<script type="text/javascript" src="{$html_weburl}js/RrdTime.js"></script>
 	<script type="text/javascript" src="{$html_weburl}js/RrdGraph.js"></script>
 	<script type="text/javascript" src="{$html_weburl}js/RrdGfxCanvas.js"></script>
+        <script type="text/javascript" src="{$html_weburl}js/RrdGfxSvg.js"></script>
 	<script type="text/javascript" src="{$html_weburl}js/binaryXHR.js"></script>
 	<script type="text/javascript" src="{$html_weburl}js/rrdFile.js"></script>
 	<script type="text/javascript" src="{$html_weburl}js/RrdDataFile.js"></script>

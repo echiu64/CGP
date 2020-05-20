@@ -226,11 +226,11 @@ class Type_Base {
 				print '</pre>';
 			break;
 			case 'canvas':
-				printf('<canvas id="%s" class="rrd">', sha1(serialize($graphoptions)));
+				printf('<svg id="%s" xmlns="http://www.w3.org/2000/svg" version="1.1" class="rrd">', sha1(serialize($graphoptions)));
 				foreach ($graphoptions as $d) {
 					printf("\"%s\"\n", htmlentities($d));
 				}
-				print '</canvas>';
+				print '</svg>';
 			break;
 			case 'debug':
 			case 1:
